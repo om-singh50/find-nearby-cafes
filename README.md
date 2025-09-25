@@ -9,7 +9,7 @@ The app detects my current location, displays it on the map, and shows markers f
 
 - On loading the app, it asks for my browser location and centers the map on it.
 - Shows a marker for my current location.
-- Reads a static JSON file (`cafes.json`) containing coordinates and names of cafes.
+- Reads a static JSON file (cafes.json) containing coordinates and names of cafes.
 - Displays a marker for each cafe on the map.
 - Clicking a cafe marker shows a popup with the cafe’s name.
 
@@ -28,25 +28,29 @@ Before running this project, I made sure to have:
 ## How I Ran the Project Locally
 
 1. **Clone the repository**
-
+```bash
 git clone https://github.com/your-username/find-nearby-cafes.git
 cd find-nearby-cafes
-
+```
 2. **Install dependencies**
    
+   ```bash
    npm install
    
 3. **Start the development server**
    
+   ```bash
    npm run dev
    
 5. Open the URL shown in the terminal (usually http://localhost:5173) to see the app.
 
+---
 ## How I Ran Tests
 I used Vitest to test my project. To run the tests, I simply did:
 
+```bash
 npm run test
-
+```
 
 The tests I wrote include:
 
@@ -54,6 +58,7 @@ The tests I wrote include:
 
 2. Verifying that cafe markers are rendered on the map.
 
+---
 ## Assumptions & Design Choices I Made
 
 1. I chose Leaflet.js free tiles to display the map.
@@ -64,6 +69,7 @@ The tests I wrote include:
 
 4. The app focuses on user location + static cafes only.
 
+---
 ## Assumptions & Design Choices I Made
 
 1. React + JavaScript
