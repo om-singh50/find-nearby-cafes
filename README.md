@@ -1,4 +1,4 @@
-# Find Nearby Cafes 🏙️☕
+# Find Nearby Cafes 
 
 Hi! This is my project where I built a simple web app to show nearby cafes on a map using **React** and **Leaflet.js**.  
 The app detects my current location, displays it on the map, and shows markers for multiple cafes from a static JSON file. Clicking a marker shows the cafe's name.
