@@ -1,0 +1,7 @@
+[
+  { "id": 1, "name": "Cafe Aroma", "lat": 28.6139, "lng": 77.2090 },
+  { "id": 2, "name": "Bean & Brew", "lat": 28.6155, "lng": 77.2085 },
+  { "id": 3, "name": "Coffee Corner", "lat": 28.6143, "lng": 77.2070 },
+  { "id": 4, "name": "Espresso Hub", "lat": 28.6162, "lng": 77.2102 },
+  { "id": 5, "name": "Cafe Bliss", "lat": 28.6170, "lng": 77.2111 }
+]
